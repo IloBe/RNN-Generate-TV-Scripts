@@ -15,6 +15,8 @@ At the end of blog the author mentioned as well, that LSTM architectures have be
 
 This way you can stay up to date with any changes we make by pulling the changes to your local repository with git pull.
 
+Additionally, a workspace utility [file](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/May/5b0dea96_workspace-utils/workspace-utils.py) is added, to make sure that the remote GPU connection during model training is stable. This file is not part of the Udacity repository, it has to be added manually from the mentioned llink.
+
 2. **If you are running the project on your local machine (and not using e.g. AWS services)** create and activate a new environment. First, move to directory `path/to/RNN_TV-Scripts-project`. Have in mind that it will take days to train this model on 'normal' CPU hardware.
   - __Windows__
   ```
